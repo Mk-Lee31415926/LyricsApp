@@ -8,18 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		4349B29B27857E3100C1096A /* LyricsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4349B29A27857E3100C1096A /* LyricsAppApp.swift */; };
-		4349B29D27857E3100C1096A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4349B29C27857E3100C1096A /* ContentView.swift */; };
+		4349B29D27857E3100C1096A /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4349B29C27857E3100C1096A /* PracticeView.swift */; };
 		4349B29F27857E3D00C1096A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4349B29E27857E3D00C1096A /* Assets.xcassets */; };
 		4349B2A227857E3D00C1096A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4349B2A127857E3D00C1096A /* Preview Assets.xcassets */; };
+		43613896278EAB8700C4D141 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43613895278EAB8700C4D141 /* Model.swift */; };
+		4361389D278EAEFD00C4D141 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361389C278EAEFD00C4D141 /* UIView.swift */; };
+		436138A6278EB69900C4D141 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436138A5278EB69900C4D141 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4349B29727857E3100C1096A /* LyricsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyricsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4349B29A27857E3100C1096A /* LyricsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsAppApp.swift; sourceTree = "<group>"; };
-		4349B29C27857E3100C1096A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4349B29C27857E3100C1096A /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
 		4349B29E27857E3D00C1096A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4349B2A127857E3D00C1096A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4349B2A327857E3D00C1096A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4349B2AA27858A5800C1096A /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		43613895278EAB8700C4D141 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4361389C278EAEFD00C4D141 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		436138A5278EB69900C4D141 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +60,14 @@
 			isa = PBXGroup;
 			children = (
 				4349B29A27857E3100C1096A /* LyricsAppApp.swift */,
-				4349B29C27857E3100C1096A /* ContentView.swift */,
+				4361389C278EAEFD00C4D141 /* UIView.swift */,
+				43613895278EAB8700C4D141 /* Model.swift */,
+				436138A5278EB69900C4D141 /* ItemRow.swift */,
+				4349B29C27857E3100C1096A /* PracticeView.swift */,
 				4349B29E27857E3D00C1096A /* Assets.xcassets */,
 				4349B2A327857E3D00C1096A /* Info.plist */,
 				4349B2A027857E3D00C1096A /* Preview Content */,
+				4349B2AA27858A5800C1096A /* MyPlayground.playground */,
 			);
 			path = LyricsApp;
 			sourceTree = "<group>";
@@ -138,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4349B29D27857E3100C1096A /* ContentView.swift in Sources */,
+				4361389D278EAEFD00C4D141 /* UIView.swift in Sources */,
+				43613896278EAB8700C4D141 /* Model.swift in Sources */,
+				436138A6278EB69900C4D141 /* ItemRow.swift in Sources */,
+				4349B29D27857E3100C1096A /* PracticeView.swift in Sources */,
 				4349B29B27857E3100C1096A /* LyricsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
